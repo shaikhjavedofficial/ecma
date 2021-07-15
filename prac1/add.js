@@ -19,13 +19,13 @@
 //console.log(mod(7000));
 //const power=(num, pow)=>(num**pow);
 //console.log(power(5e5,5e5));
-//const areaOfRect=(b,w)=>a=b*w;
+const areaOfRect=(b,w)=>a=b*w;
 //console.log(areaOfRect(20,10));
-//const areaOfTri=(b,l)=>a=(1/2)*b*l;
+const areaOfTri=(b,l)=>a=(1/2)*b*l;
 //console.log(areaOfTri(10,20));
-//const areaOfRectTri=(h,b,x)=>a=((1/2)*(h-x)*b)+(b*x);
+const areaOfRectTri=(h,b,x)=>a=((1/2)*(h-x)*b)+(b*x);
 //console.log(areaOfRectTri(30,15,10));
-//const cir=(num)=>3.14*(num**2);
+const cir=(num)=>3.14*(num**2);
 //console.log(cir(50))
 const pro=(l,h,R,x,r)=>{
    var a=(h*(l-r))+(x*(l-r)*(1/2))+((3.14*(r**2))/2)-(3.14*(R**2))
