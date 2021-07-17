@@ -48,5 +48,5 @@ console.log(sqr([5,2,7,9,10]));
 const sqra=(num1,power)=> num1.map((element) => element**power);
 console.log(sqra([5,2,7,9,10],2));
 
-const info=(infodata)=>infodata.map((element) => `${infodata.fname}+${infodata.lname} is from ${infodata.city} his contact number is ${infodata.mobile}`);
-console.log(info([{fname:"Farhan",lname:"khan",city:"pune",mobile:8275199525}]))
+const info=(infodata)=>infodata.map((element) => infodata =`${element.fname} ${element.lname} is from ${element.city} his contact number is ${element.mobile}`);
+console.log(info([{fname:"Farhan",lname:"khan",city:"pune",mobile:9002825530},{fname:"shaikh",lname:"javed",city:"Nanded",mobile:8275199525}]))
