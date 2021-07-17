@@ -1,0 +1,4 @@
+const info=(infodata)=>infodata.map((element) => infodata =`${element.fname} ${element.lname} is from ${element.city} his contact number is ${element.mobile}`);
+console.log([{course:"PDAC" , institute:"Pickupbiz" , moblie No:9874561230, city:"Nanded"},{course:"Module1" , institute:"Pickupbiz" , moblie No:9874561230, city:"pune"},{course:"Module2 " , institute:"Pickupbiz" , moblie No:9874561230, city:"HYD"},{course:"Module3" , institute:"Pickupbiz" , moblie No:9874561230, city:"Mumbai"}
+
+                 ]
