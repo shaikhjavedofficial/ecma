@@ -52,24 +52,34 @@ console.log(sqra([5, 2, 7, 9, 10], 2));
 //console.log(info([{fname:"Farhan",lname:"khan",city:"pune",mobile:9002825530},{fname:"shaikh",lname:"javed",city:"Nanded",mobile:8275199525}]));
 
 const info = (infodata) => infodata.map((element) => infodata = `The Course ${element.course} is offered by ${element.institute} and the contact number is ${element.moblieNo} in ${element.city} city`);
-console.log(info([{
-    course: "PDAC",
-    institute: "Pickupbiz",
-    moblieNo: 9874561230,
-    city: "Nanded"
-}, {
-    course: "Module1",
-    institute: "Pickupbiz",
-    moblieNo: 9874561230,
-    city: "pune"
-}, {
-    course: "Module2 ",
-    institute: "Pickupbiz",
-    moblieNo: 9874561230,
-    city: "HYD"
-}, {
-    course: "Module3",
-    institute: "Pickupbiz",
-    moblieNo: 9874561230,
-    city: "Mumbai"
-}]));
+console.log(
+    info([
+      {
+        course: "PDAC",
+        institute: "PickupBiz",
+        moblieNo: 9874561230,
+        city: "Nanded",
+      },
+      {
+        course: "Networking",
+        institute: "Seed Infotech",
+        moblieNo: 9874561555,
+        city: "pune",
+      },
+  
+      {
+        course: "DAC ",
+        institute: "C-DAC",
+        moblieNo: 987456523523,
+        city: "HYD",
+      },
+  
+      {
+        course: "HTML CSS",
+        institute: "Naresh IT",
+        moblieNo: 453636355,
+        city: "Mumbai",
+      },
+    ])
+  );
+  
