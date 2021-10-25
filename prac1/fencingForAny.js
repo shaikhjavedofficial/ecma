@@ -26,3 +26,27 @@ const num=(num1)=>{
     return sum;
 }
 console.log(num([12,10,66,64,65]));
+
+const arraysqr=(num1)=>{
+    let sqr=[];
+    num1.forEach(element => {
+      sqr= sqr.concat(Math.pow(element,2)); 
+    });
+    return sqr;
+}
+console.log(arraysqr([5,2,7,9,10]));
+
+const sqr=(num1)=>{
+    let sqr=[];
+    num1.forEach(element => {
+      sqr.push(Math.pow(element,2)); 
+    });
+    return sqr;
+}
+console.log(sqr([5,2,7,9,10]));
+
+const sqra=(num1,power)=> num1.map((element) => element**power);
+console.log(sqra([5,2,7,9,10],2));
+
+const info=(infodata)=>infodata.map((element) => `${infodata.fname}+${infodata.lname} is from ${infodata.city} his contact number is ${infodata.mobile}`);
+console.log(info([{fname:"Farhan",lname:"khan",city:"pune",mobile:8275199525}]))
