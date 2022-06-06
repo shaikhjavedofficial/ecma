@@ -1,0 +1,14 @@
+three types of js loading in html
+1. default:
+    here js will load whenever the browser encounter the js and will stop the html rendering
+    till js is downloaded and executed
+    ex: <script src="js/add.js"></script>
+
+2. async:
+    here the html rendering and js downloading and execution happens in parallel way
+    ex: <script src ="js/add.js" async></script>
+
+3. defer:
+    here the html rendering and js downloading happens in parallel way but the execution after the rendering
+    ex: <script src ="js/add.js" defer></script>
+
