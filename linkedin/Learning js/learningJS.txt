@@ -1,0 +1,23 @@
+﻿Ch_2.
+
+    • When on console use shift+enter to go next line for the executable.
+    • While initializing variable one method is var a = 10, b = 20
+    • The backslash \ breaks the string also used for multi-line string
+      ex: “this is \“an example\” of \
+          multiline string”
+    • string properties : to find length ----- var.length
+    • string methods:
+			to change to uppercase ----- var.toUpperCase()
+			to change to lowercase ----- var.toLowerCase()
+			etc
+    • Number :
+		js consider 10 and 10.0 same as 10, if the i/p is 10.236 then the o/p is 10.236
+		js supports infinity as Infinity keyword
+		if your math have error then you will NaN which not a number.
+		Js have built in methods of number handling, but for math we Math.method(), ex: var a = 10.23 ; Math.round(a)
+    • objects:
+          ex: var Obj1 = {
+          number1 : 1,
+          “string1” : “some data”,
+          }
+    • 
