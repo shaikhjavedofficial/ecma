@@ -1,2 +1,2 @@
-console.log("jlfdjgls \" gdffgdgs\" \
-gfgdgds")
+console.log('jlfdjgls " gdffgdgs" \
+gfgdgds');

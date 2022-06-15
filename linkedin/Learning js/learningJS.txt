@@ -15,9 +15,42 @@
 		js supports infinity as Infinity keyword
 		if your math have error then you will NaN which not a number.
 		Js have built in methods of number handling, but for math we Math.method(), ex: var a = 10.23 ; Math.round(a)
-    • objects:
+ 
+ch_03
+
+objects:
           ex: var Obj1 = {
           number1 : 1,
           “string1” : “some data”,
           }
+	    obj1.number1 or obj1[‘number’] will give 1, but to get string1 we have use obj1[“string1”], when we have an id with double qoute or with space then we have to use  square brackets
+	    to assign an value to any key -- obj.number1 = 10
+	    to add an key and value to object –- 1. obj[“name”] = “javed”
+2. obj.address = “inda”
+
+    • to delete properties from object use ‘delete’ keyword
+delete obj.number1
+    • when we assign an obj into another obj it doesn’t make a copy it only references to original obj, so if change any one obj the other will change,
+      ex. var obj = {
+      name:”javed”,
+      location :”india”
+      }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+      var obj1 =obj
+      obj1.name = “shaikh”
+      obj ==> {
+      name:”shaikh”,
+      location :”india”
+      }
+    • to make an copy of the object use obj1 = JSON.parse(JSON.stingify(obj))
+
+Arrays
+    • an array contains the property length
+      var array1 = [1,2, “string1”, true]
+      array1.lenght – – 3
+    • to add item to array 
+      array1[4] = “javed” --- this will add “javed” at index 4
+      array1[array1.length] = 4545 --- this will add at last index
+    • another method to add item at last index is push (array1.push(“Fdfd”)) and to remove the last index item is pop (array1.pop())
+    • to remove an specific item from array use splice ( array.splice(item_index_to_Remove, how_many_items_to_remove) )
+      array1.splice(2,1) ---- “string1”  will be remove
     • 
