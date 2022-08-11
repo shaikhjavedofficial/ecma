@@ -1,0 +1,2 @@
+1. Object.entries()
+i/p: Object.entries(abc) ===> ['key', 'value'],['key', 'value']
