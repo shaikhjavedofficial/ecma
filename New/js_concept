@@ -1,2 +1,26 @@
 1. Object.entries()
 i/p: Object.entries(abc) ===> ['key', 'value'],['key', 'value']
+
+function Bubbling_sort(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr.length - i - 1; j++) {
+      if (arr[j + 1] < arr[j]) {
+        [arr[j + 1], arr[j]] = [arr[j], arr[j + 1]];
+      }
+    }
+  }
+  return arr;
+}
+console.log(Bubbling_sort([5, 3, 8, 4, 6, 2]));
+
+function insertion_sort(arr) {
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = i - 1; j > -1; j--) {
+      if (arr[j + 1] < arr[j]) {
+        [arr[j + 1], arr[j]] = [arr[j], arr[j + 1]];
+      }
+    }
+  }
+  return arr;
+}
+console.log(insertion_sort([5, 2, 3, 6, 9, 8]));
